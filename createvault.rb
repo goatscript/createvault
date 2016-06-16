@@ -4,7 +4,7 @@ require_relative 'vault'
 PreReqs:
 - ChefDK needs to be installed on the machine before running the script.
 - Needs access to the Chef server
-- Creaet a YAML file for the project.
+- Create a YAML file for the project.
 =end
 
 puts "What is the path to the yaml file?"
