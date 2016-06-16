@@ -6,9 +6,6 @@ PreReqs:
 - Needs access to the Chef server
 - Creaet a YAML file for the project.
 =end
-rescue Exception => e
-  
-end
 
 puts "What is the path to the yaml file?"
 path = gets.chomp
