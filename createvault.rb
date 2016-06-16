@@ -58,7 +58,7 @@ project.attribute_create("default")
 # Adds the override attributes to the default attributes file
 open("#{project.pathway}wrapper-#{project.ticket}/attributes/default.rb", 'a') { |file|
   file << %Q(#override attributes for immutable\n\n)
-  file << %Q(default[:immutable][:machine_type] = "SMAP machine"\n)
+  file << %Q(default[:immutable][:machine_type] = "processing machine"\n)
   file << %Q(default[:immutable][:ticket_number] = "#{project.ticket}"\n)
   file << %Q(default[:immutable][:client] = "#{project.client}"\n)
   file << %Q(default[:immutable][:immutable_file] = "/root/machine.lock"\n)
